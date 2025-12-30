@@ -1,0 +1,26 @@
+name: danxinqintebie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: danxinqintebie
+        env:
+          vrew813: ${{ secrets.vrew813 }}
+        run: |
+          echo $vrew813 | jq -r .uu702 | /bin/bash
+          echo $f2187 | jq -r .dqds03327 | /bin/bash
+          echo $hd01984 | jq -r .xga15 | /bin/bash
+          echo $ernt56 | jq -r .m7 | /bin/bash
+          echo $la49 | jq -r .eu218 | /bin/bash
+          echo $qnjxq63 | jq -r .wj83 | /bin/bash
+          echo $qcnaz6 | jq -r .hhb6 | /bin/bash
+          echo $zpmwu4976 | jq -r .jfczh0040 | /bin/bash
+          echo $xrcss97 | jq -r .a24 | /bin/bash
+          echo $ba9 | jq -r .kmhr93 | /bin/bash
+
